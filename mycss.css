@@ -11,7 +11,8 @@ and open the template in the editor.
           background-color: #00cccc;
           width: 302px;
           height: 69px;
-          margin: 10px 4100px 10px 410px;
+          margin-left: auto;
+          margin-right: auto;
           border: 10px #006666;
           text-align:  center;
           line-height:  70px;
