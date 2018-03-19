@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 2018-3-19, 17:16:57
     Author     : L
 */
-      div{
+       .backcolor01{
           background-color: #00cccc;
           width: 302px;
           height: 69px;
@@ -17,10 +17,22 @@ and open the template in the editor.
           text-align:  center;
           line-height:  70px;
          }
-      div:hover{
+      .backcolor01:hover{
          background-color: #006666;
          width: 302px;
          height: 69px;
+      }
+      .backcolor02{
+          
+          width: 1000px;
+          height: 1000px;
+          margin-left: auto;
+          margin-right: auto;
+          border-style: solid;
+          border-color:  #000000;
+          border-width: 5px;
+          text-align:  center;
+          line-height:  70px;
       }
       .text00{
           font-size: 20px;
