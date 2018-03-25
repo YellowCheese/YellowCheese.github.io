@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>AssemblyLanguage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mycss.css" type="text/css">
+    </head>
+    <body>
+    
+    <div class="backcolor03">
+        <p class="text02">关于win10上使用汇编的简易环境搭建：</p>
+        <pre class="text02">
+  1.安装dosbox;
+  2.下载debug.exe文件,将其移动至自己定义的文件夹（如：d:\debugtest）;
+  3.在dosbox的安装目录下，双击DOSBox 0.74 Options.bat文件;
+  4.在出现的.conf窗口中，移至末尾，在[autoexec]下添加如下代码：
+     MOUNT C D:\debugtest   # 用自定义区域代替C盘，进行虚拟（这里的区域必须为debug.exe所在区域）
+     C:                     # 开启dosbox时自动进入虚拟C
+  ps:win10上取消了以前自带的debug功能，为了学习汇编语言，而进行了简易的汇编环境的搭建。
+  为此查过了网上的教程，而大部分竟然要安装masm32，但是实测发现masm32并没有带debug.exe
+  的文件，所以去网上又下载了debug.exe。发现其实如果只使用简易的汇编功能（目前在看《汇
+  编语言 王爽著》，前期只使用debug功能），只需要debug.exe+dosbox就可以了。
+  ——2018.3.25 YellowCheese
+        </pre>
+    </div>
+    </body>
+</html>
